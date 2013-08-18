@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1318D0117C06F6F005C33F6 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B1318D0017C06F6F005C33F6 /* LICENSE */; };
+		B13205361781290100B3C5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13205351781290100B3C5F8 /* Foundation.framework */; };
+		B13205381781290100B3C5F8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13205371781290100B3C5F8 /* CoreGraphics.framework */; };
+		B132053A1781290100B3C5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13205391781290100B3C5F8 /* UIKit.framework */; };
+		B13205401781290100B3C5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B132053E1781290100B3C5F8 /* InfoPlist.strings */; };
+		B13205421781290100B3C5F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B13205411781290100B3C5F8 /* main.m */; };
+		B13205461781290100B3C5F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B13205451781290100B3C5F8 /* AppDelegate.m */; };
+		B13205481781290100B3C5F8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B13205471781290100B3C5F8 /* Images.xcassets */; };
+		B132054F1781290100B3C5F8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B132054E1781290100B3C5F8 /* XCTest.framework */; };
+		B13205501781290100B3C5F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13205351781290100B3C5F8 /* Foundation.framework */; };
+		B13205511781290100B3C5F8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13205391781290100B3C5F8 /* UIKit.framework */; };
+		B13205591781290100B3C5F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B13205571781290100B3C5F8 /* InfoPlist.strings */; };
+		B132055B1781290100B3C5F8 /* ESXMLTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B132055A1781290100B3C5F8 /* ESXMLTests.m */; };
+		B132057D17812AC900B3C5F8 /* ESXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = B132057617812AC900B3C5F8 /* ESXMLDocument.m */; };
+		B132057E17812AC900B3C5F8 /* ESXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = B132057817812AC900B3C5F8 /* ESXMLElement.m */; };
+		B132057F17812AC900B3C5F8 /* ESXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = B132057A17812AC900B3C5F8 /* ESXMLNode.m */; };
+		B132058017812AC900B3C5F8 /* ESXMLText.m in Sources */ = {isa = PBXBuildFile; fileRef = B132057C17812AC900B3C5F8 /* ESXMLText.m */; };
+		B132058117812B4500B3C5F8 /* test.xml in Resources */ = {isa = PBXBuildFile; fileRef = B132057217812A4600B3C5F8 /* test.xml */; };
+		B18BFD091792D3F2006DEFD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B18BFD081792D3F2006DEFD4 /* README.md */; };
+		B1FBC1BA17817BFB00184A4C /* ESXMLHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FBC1B917817BFB00184A4C /* ESXMLHttpRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B13205521781290100B3C5F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B132052A1781290100B3C5F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B13205311781290100B3C5F8;
+			remoteInfo = ESXML;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1318D0017C06F6F005C33F6 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		B13205321781290100B3C5F8 /* ESXML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ESXML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B13205351781290100B3C5F8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B13205371781290100B3C5F8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B13205391781290100B3C5F8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B132053D1781290100B3C5F8 /* ESXML-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESXML-Info.plist"; sourceTree = "<group>"; };
+		B132053F1781290100B3C5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B13205411781290100B3C5F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B13205431781290100B3C5F8 /* ESXML-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ESXML-Prefix.pch"; sourceTree = "<group>"; };
+		B13205441781290100B3C5F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B13205451781290100B3C5F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B13205471781290100B3C5F8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B132054D1781290100B3C5F8 /* ESXMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ESXMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B132054E1781290100B3C5F8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B13205561781290100B3C5F8 /* ESXMLTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ESXMLTests-Info.plist"; sourceTree = "<group>"; };
+		B13205581781290100B3C5F8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B132055A1781290100B3C5F8 /* ESXMLTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ESXMLTests.m; sourceTree = "<group>"; };
+		B132057217812A4600B3C5F8 /* test.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = test.xml; sourceTree = "<group>"; };
+		B132057417812AC900B3C5F8 /* ESDOMCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESDOMCore.h; sourceTree = "<group>"; };
+		B132057517812AC900B3C5F8 /* ESXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESXMLDocument.h; sourceTree = "<group>"; };
+		B132057617812AC900B3C5F8 /* ESXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESXMLDocument.m; sourceTree = "<group>"; };
+		B132057717812AC900B3C5F8 /* ESXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESXMLElement.h; sourceTree = "<group>"; };
+		B132057817812AC900B3C5F8 /* ESXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESXMLElement.m; sourceTree = "<group>"; };
+		B132057917812AC900B3C5F8 /* ESXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESXMLNode.h; sourceTree = "<group>"; };
+		B132057A17812AC900B3C5F8 /* ESXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESXMLNode.m; sourceTree = "<group>"; };
+		B132057B17812AC900B3C5F8 /* ESXMLText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESXMLText.h; sourceTree = "<group>"; };
+		B132057C17812AC900B3C5F8 /* ESXMLText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESXMLText.m; sourceTree = "<group>"; };
+		B18BFD081792D3F2006DEFD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		B1FBC1B817817BFB00184A4C /* ESXMLHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESXMLHttpRequest.h; sourceTree = "<group>"; };
+		B1FBC1B917817BFB00184A4C /* ESXMLHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESXMLHttpRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B132052F1781290100B3C5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13205381781290100B3C5F8 /* CoreGraphics.framework in Frameworks */,
+				B132053A1781290100B3C5F8 /* UIKit.framework in Frameworks */,
+				B13205361781290100B3C5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B132054A1781290100B3C5F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B132054F1781290100B3C5F8 /* XCTest.framework in Frameworks */,
+				B13205511781290100B3C5F8 /* UIKit.framework in Frameworks */,
+				B13205501781290100B3C5F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B13205291781290100B3C5F8 = {
+			isa = PBXGroup;
+			children = (
+				B132053B1781290100B3C5F8 /* ESXML */,
+				B13205541781290100B3C5F8 /* ESXMLTests */,
+				B13205341781290100B3C5F8 /* Frameworks */,
+				B13205331781290100B3C5F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B13205331781290100B3C5F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B13205321781290100B3C5F8 /* ESXML.app */,
+				B132054D1781290100B3C5F8 /* ESXMLTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B13205341781290100B3C5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13205351781290100B3C5F8 /* Foundation.framework */,
+				B13205371781290100B3C5F8 /* CoreGraphics.framework */,
+				B13205391781290100B3C5F8 /* UIKit.framework */,
+				B132054E1781290100B3C5F8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B132053B1781290100B3C5F8 /* ESXML */ = {
+			isa = PBXGroup;
+			children = (
+				B13205441781290100B3C5F8 /* AppDelegate.h */,
+				B13205451781290100B3C5F8 /* AppDelegate.m */,
+				B132057317812AC900B3C5F8 /* DOM */,
+				B13205471781290100B3C5F8 /* Images.xcassets */,
+				B132053C1781290100B3C5F8 /* Supporting Files */,
+			);
+			path = ESXML;
+			sourceTree = "<group>";
+		};
+		B132053C1781290100B3C5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B18BFD081792D3F2006DEFD4 /* README.md */,
+				B1318D0017C06F6F005C33F6 /* LICENSE */,
+				B132053D1781290100B3C5F8 /* ESXML-Info.plist */,
+				B132053E1781290100B3C5F8 /* InfoPlist.strings */,
+				B13205411781290100B3C5F8 /* main.m */,
+				B13205431781290100B3C5F8 /* ESXML-Prefix.pch */,
+				B132057217812A4600B3C5F8 /* test.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B13205541781290100B3C5F8 /* ESXMLTests */ = {
+			isa = PBXGroup;
+			children = (
+				B132055A1781290100B3C5F8 /* ESXMLTests.m */,
+				B13205551781290100B3C5F8 /* Supporting Files */,
+			);
+			path = ESXMLTests;
+			sourceTree = "<group>";
+		};
+		B13205551781290100B3C5F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B13205561781290100B3C5F8 /* ESXMLTests-Info.plist */,
+				B13205571781290100B3C5F8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B132057317812AC900B3C5F8 /* DOM */ = {
+			isa = PBXGroup;
+			children = (
+				B132057417812AC900B3C5F8 /* ESDOMCore.h */,
+				B132057517812AC900B3C5F8 /* ESXMLDocument.h */,
+				B132057617812AC900B3C5F8 /* ESXMLDocument.m */,
+				B132057717812AC900B3C5F8 /* ESXMLElement.h */,
+				B132057817812AC900B3C5F8 /* ESXMLElement.m */,
+				B132057917812AC900B3C5F8 /* ESXMLNode.h */,
+				B132057A17812AC900B3C5F8 /* ESXMLNode.m */,
+				B132057B17812AC900B3C5F8 /* ESXMLText.h */,
+				B132057C17812AC900B3C5F8 /* ESXMLText.m */,
+				B1FBC1B817817BFB00184A4C /* ESXMLHttpRequest.h */,
+				B1FBC1B917817BFB00184A4C /* ESXMLHttpRequest.m */,
+			);
+			path = DOM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B13205311781290100B3C5F8 /* ESXML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B132055E1781290100B3C5F8 /* Build configuration list for PBXNativeTarget "ESXML" */;
+			buildPhases = (
+				B132052E1781290100B3C5F8 /* Sources */,
+				B132052F1781290100B3C5F8 /* Frameworks */,
+				B13205301781290100B3C5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ESXML;
+			productName = ESXML;
+			productReference = B13205321781290100B3C5F8 /* ESXML.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B132054C1781290100B3C5F8 /* ESXMLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B13205611781290100B3C5F8 /* Build configuration list for PBXNativeTarget "ESXMLTests" */;
+			buildPhases = (
+				B13205491781290100B3C5F8 /* Sources */,
+				B132054A1781290100B3C5F8 /* Frameworks */,
+				B132054B1781290100B3C5F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B13205531781290100B3C5F8 /* PBXTargetDependency */,
+			);
+			name = ESXMLTests;
+			productName = ESXMLTests;
+			productReference = B132054D1781290100B3C5F8 /* ESXMLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B132052A1781290100B3C5F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tracy E";
+				TargetAttributes = {
+					B132054C1781290100B3C5F8 = {
+						TestTargetID = B13205311781290100B3C5F8;
+					};
+				};
+			};
+			buildConfigurationList = B132052D1781290100B3C5F8 /* Build configuration list for PBXProject "ESXML" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B13205291781290100B3C5F8;
+			productRefGroup = B13205331781290100B3C5F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B13205311781290100B3C5F8 /* ESXML */,
+				B132054C1781290100B3C5F8 /* ESXMLTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B13205301781290100B3C5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B132058117812B4500B3C5F8 /* test.xml in Resources */,
+				B13205401781290100B3C5F8 /* InfoPlist.strings in Resources */,
+				B18BFD091792D3F2006DEFD4 /* README.md in Resources */,
+				B13205481781290100B3C5F8 /* Images.xcassets in Resources */,
+				B1318D0117C06F6F005C33F6 /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B132054B1781290100B3C5F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13205591781290100B3C5F8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B132052E1781290100B3C5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B132058017812AC900B3C5F8 /* ESXMLText.m in Sources */,
+				B132057E17812AC900B3C5F8 /* ESXMLElement.m in Sources */,
+				B13205461781290100B3C5F8 /* AppDelegate.m in Sources */,
+				B1FBC1BA17817BFB00184A4C /* ESXMLHttpRequest.m in Sources */,
+				B132057F17812AC900B3C5F8 /* ESXMLNode.m in Sources */,
+				B13205421781290100B3C5F8 /* main.m in Sources */,
+				B132057D17812AC900B3C5F8 /* ESXMLDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B13205491781290100B3C5F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B132055B1781290100B3C5F8 /* ESXMLTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B13205531781290100B3C5F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B13205311781290100B3C5F8 /* ESXML */;
+			targetProxy = B13205521781290100B3C5F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B132053E1781290100B3C5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B132053F1781290100B3C5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B13205571781290100B3C5F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B13205581781290100B3C5F8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B132055C1781290100B3C5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B132055D1781290100B3C5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B132055F1781290100B3C5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mingang Yi (UJBM4L3C3E)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESXML/ESXML-Prefix.pch";
+				INFOPLIST_FILE = "ESXML/ESXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B13205601781290100B3C5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: China M-World Co., Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESXML/ESXML-Prefix.pch";
+				INFOPLIST_FILE = "ESXML/ESXML-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B13205621781290100B3C5F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ESXML.app/ESXML";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESXML/ESXML-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ESXMLTests/ESXMLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B13205631781290100B3C5F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ESXML.app/ESXML";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(SYSTEM_APPS_DIR)/Xcode5-DP2.app/Contents/Developer/Library/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ESXML/ESXML-Prefix.pch";
+				INFOPLIST_FILE = "ESXMLTests/ESXMLTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B132052D1781290100B3C5F8 /* Build configuration list for PBXProject "ESXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B132055C1781290100B3C5F8 /* Debug */,
+				B132055D1781290100B3C5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B132055E1781290100B3C5F8 /* Build configuration list for PBXNativeTarget "ESXML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B132055F1781290100B3C5F8 /* Debug */,
+				B13205601781290100B3C5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B13205611781290100B3C5F8 /* Build configuration list for PBXNativeTarget "ESXMLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B13205621781290100B3C5F8 /* Debug */,
+				B13205631781290100B3C5F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B132052A1781290100B3C5F8 /* Project object */;
+}
